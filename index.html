@@ -1,302 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Akhdan Rafif Nugraha | Portfolio</title>
-    </head>
-    <body>
-        <!--Header-->
-        <header>
-            <div>
-                <div>
-                    <h3>Akhdan RN</h3>
-                </div>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Me</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Project</a></li>
-                        </ul>
-                    </nav>
-            </div>
-            <div>
-                <button>Contact Me!</button>
-            </div>
-        </header>
-        <!--Header-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akhdan Rafif Nugraha | Portofolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7eee840aa0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="nav-head">
+        <div class="brand">
+          <h3 class="logo-text"><a href="#">Akhdan RN</a></h3>
+        </div>
+        <div class="nav-list">
+          <nav id="navbar-list">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#Testimonial">Project</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="btn">
+          <i class="fa-solid fa-bars" id="humberger"></i>
+          <button id="btn-nav" class="btn-primary">Contact Me!</button>
+        </div>
+      </div>
+    </header>
+    <!-- Header end -->
 
-        <!--Home-->
-        <section id="hero">
-            <div>
-              <div>
-                <img src="assets/img/profile1.png" alt="Akhdan Pic" />
-              </div>
-              <div>
-                <h2>
-                  Hello I'm <span>Akhdan, a UI</span> Designer based in Ciamis
-                </h2>
-                <p>
-                  Welcome to the gateway of turning your dreams
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="img-hero">
+          <img src="assets/img/profile1.png" alt="Subhan Hakim Pict" />
+        </div>
+        <div class="hero-text">
+          <div class="text-content">
+            <h2 class="text-head">
+              Hello I'm<br><span>Akhdan</span>, a UI<br>Designer<br>based in Ciamis
+            </h2>
+            <div class="width-text">
+              <p class="text-sub">
+                Welcome to the gateway of turning your dreams
                   into digital reality! Together, let's embark on a
                   journey where we fuse creativity with
                   technology to bring your vision to life! Let's
-                  collaborate and embrace the digital frontier! 
-                </p>
-                <div>
-                  <button>Let's Connect</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        <!--Home-->
-
-        <!-- About Me-->
-    <section id="about">
-        <h2>Discover the story behind me !</h2>
-        <div>
-          <div>
-            <div>
-              <h2>
-                I'm a UI/UX Designer!
-              </h2>
-              <p>
-                Hello there! It's a pleasure to connect with you! I'm Akhdan Rafif
-                Nugraha, and I bring a passion for UI/UX Design to the table. With
-                unwavering dedication, I pour my heart and soul into every project I 
-                undertake. Let's create something incredible together!
+                  collaborate and embrace the digital frontier!
               </p>
             </div>
-            <div>
-              <div>
-                <button>Expertise</button>
-                <button>Certificate</button>
-                <button>Education</button>
+          </div>
+          <div class="btn-content">
+            <button class="btn-primary">Let's Connect</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Hero End -->
+
+
+    <!-- About Me -->
+    <section id="about">
+      <div class="text-center">
+        <h2 class="text-section">I'm a UI/UX Designer!</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-content-right">
+          <div class="text-center">
+            <p class="text-subs">
+              Hello there! It's a pleasure to connect with you! I'm <span>
+              Akhdan Rafif Nugraha</span>, and I bring a passion for <span>UI/UX Design</span> to the table. With
+              unwavering dedication, I pour my heart and soul into every project I 
+              undertake. Let's create something incredible together!
+            </p>
+          </div>
+
+          <div class="btn-content">
+            <button class="btn-primary">Expertise</button>
+            <button class="btn-secondary">Certificate</button>
+            <button class="btn-secondary">Education</button>
+          </div>
+          <div class="conten-prog">
+            <div class="porg-bar">
+              <div class="text-prog">
+                <label for="">Figma</label>
+                <span>95%</span>
               </div>
-              <div>
-                <div>
-                  <label for="">Figma</label>
-                  <span>90%</span>
-                  <br />
-                  <progress id="" value="90" max="100">90%</progress>
-                </div>
-                <div>
-                  <label for="">HTML</label>
-                  <span>85%</span>
-                  <br />
-                  <progress id="" value="85" max="100">85%</progress>
-                </div>
-                <div>
-                  <label for="">CSS</label>
-                  <span>90%</span>
-                  <br />
-                  <progress id="" value="90" max="100">90%</progress>
-                </div>
-                <div>
-                  <label for="">Javascript</label>
-                  <span>75%</span>
-                  <br />
-                  <progress id="" value="75" max="100">75%</progress>
-                </div>
+              <div class="border-prog">
+                <div class="bar-prog" style="width: 95%"></div>
               </div>
             </div>
+            <div class="porg-bar">
+              <div class="text-prog">
+                <label for="">Adobe XD</label>
+                <span>80%</span>
+              </div>
+              <div class="border-prog">
+                <div class="bar-prog" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="porg-bar">
+              <div class="text-prog">
+                <label for="">HTML</label>
+                <span>85%</span>
+              </div>
+              <div class="border-prog">
+                <div class="bar-prog" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="porg-bar">
+              <div class="text-prog">
+                <label for="">CSS</label>
+                <span>90%</span>
+              </div>
+              <div class="border-prog">
+                <div class="bar-prog" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="porg-bar">
+              <div class="text-prog">
+                <label for="">Javascript</label>
+                <span>75%</span>
+              </div>
+              <div class="border-prog">
+                <div class="bar-prog" style="width: 75%"></div>
+              </div>
+            </div>
+            </div>
           </div>
-          <div>
-            <img src="/assets/img/profile2.png" alt="" />
-          </div>    
         </div>
-      </section>
-      <!-- About Me-->
-    
-      <!-- Service-->
+      </div>
+    </section>
+    <!-- About Me End -->
+
+    <!-- Service -->
     <section id="service">
-        <div>
-          <h2>Service</h2>
-          <h1>Why Me ?</h1>
-        </div>
-        <div>
+      <div class="text-center">
+        <h2 class="text-section">Service</h2>
+        <h1 class="text-subhead">Why Me ?</h1>
+      </div>
+      <div class="grid-col-3">
+        <div class="card">
           <div>
             <img src="assets/img/icon1.png" alt="icon" />
-            <h3>Competitive Price</h3>
-            <p>
-                Experience top-notch service at 
-                unbeatable prices - where quality 
-                meets affordability.
-            </p>
           </div>
+          <h3 class="head-text">Competitive Price</h3>
+          <p class="sub-text">
+            Experience top-notch service at 
+            unbeatable prices - where quality 
+            meets affordability.
+          </p>
+        </div>
+        <div class="card">
           <div>
             <img src="assets/img/icon2.png" alt="icon" />
-            <h3>Long-term Partnership</h3>
-            <p>
-                Embark on a journey of lasting 
-                collaboration with me. We're 
-                dedicated to nurturing enduring 
-                partnerships by offering continuous 
-                support and maintenance.
-            </p>
           </div>
+          <h3 class="head-text">Long-term Partnership</h3>
+          <p class="sub-text">
+            Embark on a journey of lasting 
+            collaboration with me. We're 
+            dedicated to nurturing enduring 
+            partnerships by offering continuous 
+            support and maintenance.
+          </p>
+        </div>
+        <div class="card">
           <div>
             <img src="assets/img/icon3.png" alt="icon" />
-            <h3>Performance-driven Solution</h3>
-            <p>
-                Elevate your online presence with a 
-                website design that prioritizes speed, 
-                security, and scalability.
-            </p>
           </div>
+          <h3 class="head-text">Performance-driven Solution</h3>
+          <p class="sub-text">
+            Elevate your online presence with a 
+            website design that prioritizes speed, 
+            security, and scalability.
+          </p>
         </div>
-      </section>
-      <!-- Service-->
+      </div>
+    </section>
+    <!-- Service End -->
 
-      <!-- Project-->
+    <!-- Project -->
     <section id="project">
-        <div>
-          <h2>My Projects</h2>
-          <h1>Here's what i've been up to</h1>
+      <div class="text-center">
+        <h2 class="text-section">My Projects</h2>
+        <h1 class="text-subhead">
+          Here's what i've been up to
+        </h1>
+      </div>
+      <div class="grid-col-project">
+        <div class="card-img">
+          <img src="assets/img/box.png" alt="" />
         </div>
-        <div>
-          <div>
-            <div>
-              <img src="assets/img/box.png" alt="" />
-            </div>
-            <div>
-              <img src="assets/img/box1.png" alt="" />
-            </div>
-            <div>
-              <img src="assets/img/box2.png" alt="" />
-            </div>
-            <div>
-            </div>
-          </div>
+        <div class="card-img">
+          <img src="assets/img/box1.png" alt="" />
         </div>
-      </section>
-      <!-- Project -->
-
-      <!-- Testimonial -->
-    <section id="Testimonies">
-      <div>
-        <h2>Testimonies</h2>
-        <h1>Discover the captivating stories my clients have to share.</h1>
-        <div>
-        </div>
-        <div>
-          <div>
-            <img src="assets/img/testi1.png" alt="" />
-            <img src="assets/img/star.png" alt="" />
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
-                tellus eget egestas. Enim ultrices dictumst tortor in eget neque
-                vestibulum potenti tempus
-              </p>
-              <div>
-                <h3>Teguh Gustiana</h3>
-                <span>CEO of Sony Interactive</span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img src="assets/img/testi2.png" alt="" />
-            <img src="assets/img/star.png" alt="" />
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
-                tellus eget egestas. Enim ultrices dictumst tortor in eget neque
-                vestibulum potenti tempus
-              </p>
-              <div>
-                <h3>Agis M Nursyam</h3>
-                <span>CEO of Microsoft</span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img src="assets/img/testi3.png" alt="" />
-            <img src="assets/img/star.png" alt="" />
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
-                tellus eget egestas. Enim ultrices dictumst tortor in eget neque
-                vestibulum potenti tempus
-              </p>
-              <div>
-                <h3>Wildan Fauzi</h3>
-                <span>CEO of Apple Inc.</span>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img src="assets/img/testi4.png" alt="" />
-            <img src="assets/img/star.png" alt="" />
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
-                tellus eget egestas. Enim ultrices dictumst tortor in eget neque
-                vestibulum potenti tempus
-              </p>
-              <div>
-                <h3>Luthfan H Naufal</h3>
-                <span>CEO of Hoyoverse</span>
-              </div>
-            </div>
-          </div>
+        <div class="card-img">
+          <img src="assets/img/box2.png" alt="" />
         </div>
       </div>
     </section>
+    <!-- Project End -->
+
     <!-- Testimonial -->
-
-    <!--Contact -->
-    <section id="contact">
-      <div>
-        <h2>Contact Me</h2>
-        <h1>Feel Free To Reach Out To Me</h1>
-      </div>
-      <div>
-        <div>
-          <p>081324472608</p>
-          <p><b>Address:</b>Kertasari Regency, Ciamis, West Java</p>
-          <p><b>Email:</b> akhdannugraha1@gmail.com</p>
-          <p><b>Work Hour:</b> Mon - Sat: 9:00 - 18:00</p>
+    <section id="Testimonial">
+      <div class="text-center">
+        <h2 class="text-section">Testimonies</h2>
+        <h1 class="text-subhead">Discover the captivating stories my clients have to share.</h1>
+        <div class="testi-icon">
+          <div class="circle-icon">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="circle-icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
         </div>
-        <div>
-          <form action="#">
+      </div>
+      <div class="section-card">
+        <div class="card-testi">
+          <div class="card-hedtext">
             <div>
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email Address" />
+              <img src="assets/testimo foto.png" alt="" />
             </div>
-            <input type="text" placeholder="Phone Number" /> <br />
-            <input type="text" placeholder="How can we help you ?" />
-
+            <div class="card-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="card-subtext">
+            <p class="sub-text">
+              Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
+              tellus eget egestas. Enim ultrices dictumst tortor in eget neque
+              vestibulum potenti tempus
+            </p>
+            <div class="card-textcenter">
+              <h3>Teguh Gustiana</h3>
+              <span>CEO of Sony Interactive</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-testi">
+          <div class="card-hedtext">
             <div>
-              <input type="checkbox" name="submitting" value="" id="" />
-              <label for="submitting"
-                >By submitting, i’m agreed to the Terms & Conditons</label
-              >
-              <br>
-              <button type="submit">Request Now</button>
+              <img src="assets/testimo foto2.png" alt="" />
             </div>
-          </form>
+            <div class="card-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="card-subtext">
+            <p class="sub-text">
+              Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
+              tellus eget egestas. Enim ultrices dictumst tortor in eget neque
+              vestibulum potenti tempus
+            </p>
+            <div class="card-textcenter">
+              <h3>Agis M Nursyam</h3>
+              <span>CEO of Microsoft</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-testi">
+          <div class="card-hedtext">
+            <div>
+              <img src="assets/testimo foto3.png" alt="" />
+            </div>
+            <div class="card-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="card-subtext">
+            <p class="sub-text">
+              Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
+              tellus eget egestas. Enim ultrices dictumst tortor in eget neque
+              vestibulum potenti tempus
+            </p>
+            <div class="card-textcenter">
+              <h3>Wildan Fauzi</h3>
+              <span>CEO of Apple Inc.</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-testi">
+          <div class="card-hedtext">
+            <div>
+              <img src="assets/testimo foto4.png" alt="" />
+            </div>
+            <div class="card-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="card-subtext">
+            <p class="sub-text">
+              Lorem ipsum dolor sit amet consectetur. Nibh porttitor aliquet
+              tellus eget egestas. Enim ultrices dictumst tortor in eget neque
+              vestibulum potenti tempus
+            </p>
+            <div class="card-textcenter">
+              <h3>Luthfan H Naufal</h3>
+              <span>CEO of Hoyoverse</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!-- Testimonial end -->
+
     <!-- Contact -->
+    <section id="contact" style="overflow: hidden">
+      <div class="footer-gap">
+        <div class="text-center">
+          <h2 class="text-section">Contact Me</h2>
+          <h1 class="text-subhead">Feel Free To Reach Out To Me</h1>
+        </div>
+        <div class="contact-content">
+          <div class="contact-information">
+            <div class="contact-head">
+              <p>085156567246</p>
+            </div>
+            <div class="contact-subhead">
+              <p><b>Address: </b>Kertasari Regency, Ciamis, West Java</p>
+              <p><b>Email: </b> akhdannugraha1@gmail.com</p>
+              <p><b>Work Hour: </b> Mon - Sat: 9:00 - 18:00</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form
+              action="#"
+              style="display: flex; flex-direction: column; gap: 20px"
+            >
+              <div class="contact-email">
+                <input type="text" class="form" placeholder="Name" />
+                <input type="email" class="form" placeholder="Email Address" />
+              </div>
+              <div class="contact-textarea">
+                <input
+                  type="text"
+                  class="form"
+                  placeholder="Phone Number"
+                />
+                <br />
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="form"
+                  placeholder="How can i help you?"
+                ></textarea>
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <div>
+                  <input type="checkbox" name="submitting" value="" id="" />
+                  <label
+                    for="submitting"
+                    style="color: #000000; font-size: 14px; font-weight: 400"
+                    >By submitting, you agreed to the Terms & Conditons</label
+                  >
+                </div>
+                <br />
+                <div>
+                  <button type="submit" class="btn-third">Request Now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact End -->
 
     <!-- Footer -->
-    <footer>
-      <div>
-        <div>
+    <footer style="position: sticky">
+      <div class="footer-content">
+        <div class="footer-text">
           <h3>Akhdan RN</h3>
           <p>&#169; Copyright 2024. All Rights Reserved.</p>
         </div>
-        <div>
+        <div class="footer-subhead">
           <h3>FOLLOW ME:</h3>
-          <a href="#"><img src="assets/img/linkedin.png" alt=""></a>
-          <a href="#"><img src="assets/img/facebook.png" alt=""></a>
-          <a href="#"><img src="assets/img/instagram.png" alt=""></a>
+          <div>
+            <a href="#"><img src="assets/img/linkedin.png" alt=""></a>
+            <a href="#"><img src="assets/img/facebook.png" alt=""></a>
+            <a href="#"><img src="assets/img/instagram.png" alt=""></a>
+          </div>
         </div>
       </div>
     </footer>
     <!-- Footer End -->
-    </body>
+  </body>
 </html>
