@@ -77,7 +77,10 @@ nav li:first-child{
   display: none;
 }
 
-
+.error-message {
+  color: red;
+  font-size: 12px;
+}
 
 /*NAVBAR
 header {
