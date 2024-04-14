@@ -82,42 +82,6 @@ nav li:first-child{
   font-size: 12px;
 }
 
-/*NAVBAR
-header {
-  box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.4);
-  background-color: white;
-}
-
-.nav-head {
-  padding: 40px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.brand .logo-text a {
-  text-decoration: none;
-  font-size: 25px;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
-  font-weight: bold;
-  color: var(--textGray);
-  cursor: pointer;
-  letter-spacing: 1%;
-}
-
-.nav-list nav ul {
-  list-style-type: none;
-  display: flex;
-  gap: 40px;
-}
-
-.nav-list nav ul a {
-  text-decoration: none;
-  font-size: 18px;
-  color: var(--darkBlack);
-  font-weight: 500;
-}
-*/
 
 .btn-primary {
   padding: 12px 20px;
@@ -147,6 +111,11 @@ header {
   border-radius: 8px;
 }
 
+.error {
+  color: black;
+  font-size: 12px;
+  font-weight: bolder;  
+}
 #hero {
   padding: 100px;
 }

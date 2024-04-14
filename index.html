@@ -6,8 +6,6 @@
     <title>Akhdan Rafif Nugraha | Portofolio</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://kit.fontawesome.com/7eee840aa0.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-  </head>
   <body>
     <nav>
       <ul class="sidebar">
@@ -20,7 +18,7 @@
       </ul>
       <ul>
         <li><a href="#">Akhdan RN</a></li>
-        <li class="hideOnMobile"><a href="/">Home</a></li>
+        <li class="hideOnMobile"><a href="">Home</a></li>
         <li class="hideOnMobile"><a href="#about">About</a></li>
         <li class="hideOnMobile"><a href="#service">Service</a></li>
         <li class="hideOnMobile"><a href="#Testimonial">Testimonial</a></li>
@@ -73,7 +71,7 @@
               Akhdan Rafif Nugraha</span>, and I bring a passion for <span>UI/UX Design</span> to the table. With
               unwavering dedication, I pour my heart and soul into every project I 
               undertake. Let's create something incredible together!
-            </p>
+              </p>
           </div>
 
           <div class="btn-content">
@@ -321,7 +319,7 @@
     </section>
     <!-- Testimonial end -->
 
-    <!-- Contact -->
+    <!-- Contact Section -->
     <section id="contact" style="overflow: hidden">
       <div class="footer-gap">
         <div class="text-center">
@@ -341,27 +339,32 @@
           </div>
           <div class="contact-form">
             <form
+              id="contactForm"
               action="#"
               style="display: flex; flex-direction: column; gap: 20px"
-            > 
+            >
               <div class="contact-email">
-                <input type="text" class="form" placeholder="Name" />
-                <input type="email" class="form" placeholder="Email Address" />
+                <input type="text" class="form" id="fullname" name="fullname" placeholder="Name" maxlength="30" />
+                <input type="email" id="email" name="email" class="form" placeholder="Email Address" maxlength="40" />
               </div>
               <div class="contact-textarea">
                 <input
-                  type="text"
+                  type="num"
                   class="form"
-                  placeholder="Phone Number"
+                  placeholder="No Handphone"
+                  maxlength="15"
+                  id="phone"
+                  name="phone"
                 />
                 <br />
                 <textarea
                   name="message"
-                  id=""
+                  id="message"
                   cols="30"
                   rows="10"
                   class="form"
-                  placeholder="How can i help you?"
+                  placeholder="How Can help you ?"
+                  maxlength="60"
                 ></textarea>
               </div>
               <div style="display: flex; flex-direction: column">
@@ -369,8 +372,8 @@
                   <input type="checkbox" name="submitting" value="" id="" />
                   <label
                     for="submitting"
-                    style="color: #000000; font-size: 14px; font-weight: 400"
-                    >By submitting, you agreed to the Terms & Conditons</label
+                    style="color: #e9efff; font-size: 14px; font-weight: 400"
+                    >By submitting, i’m agreed to the Terms & Conditons</label
                   >
                 </div>
                 <br />
@@ -384,6 +387,7 @@
       </div>
     </section>
     <!-- Contact End -->
+
 
     <!-- Footer -->
     <footer style="position: sticky">
@@ -403,5 +407,11 @@
       </div>
     </footer>
     <!-- Footer End -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+  </head>
   </body>
 </html>
